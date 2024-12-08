@@ -1,10 +1,10 @@
-number_one = int(input("Введите число: "))
-if number_one == 0:
-    print("Программа завершена.")
-else:
-    while True:
-        number_two = int(input("Введите число: "))
-        if number_two == 0:
-            break
-sthet = number_one * number_two
-print("Произведение:", sthet)
+number_one = int(input("Введите число: ")) #ввод числа
+if number_one == 0: #проверка числа
+    print("Программа завершена.") #завершение программы при неправельности числа
+else: #запасной вариант действия программы 
+    while True: #запуск цикла
+        number_two = int(input("Введите число: ")) #ввод второго числа 
+        if number_two == 0: #проверка второго числа
+            break #завершение цикла при правильности программы 
+sthet = number_one * number_two #действия с введенными числами
+print("Произведение:", sthet) #вывод результата
